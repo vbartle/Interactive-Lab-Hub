@@ -58,13 +58,13 @@ Labs are due on Mondays. Make sure this page is linked to on your main class hub
 
 To stage the interaction with your interactive device, think about:
 
-_Setting:_ Where is this interaction happening? (e.g., a jungle, the kitchen) When is it happening?
+_Setting:_ Where🏠 is this interaction happening? (e.g., a jungle, the kitchen) When⏰ is it happening?
 
-_Players:_ Who is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
+_Players:_ Who🧍 is involved in the interaction? Who else is there? If you reflect on the design of current day interactive devices like the Amazon Alexa, it’s clear they didn’t take into account people who had roommates, or the presence of children. Think through all the people who are in the setting.
 
-_Activity:_ What is happening between the actors?
+_Activity:_ What📕 is happening between the actors?
 
-_Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
+_Goals:_ What are the goals of each player?⌛🔥 (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
 **Describe your setting, players, activity and goals here.**
@@ -74,6 +74,11 @@ Sketch a storyboard of the interactions you are planning. It does not need to be
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
 **Summarize feedback you got here.**
+
+----
+Mark🧍 has come home🏠 after months of camping⏰ and is reintegrating to a world of technology. He finds reading📕 by the radiator in his NY apartment lackluster compared to reading by the campfire🔥, but with his new busy schedule, also needs a way to 'pomodoro⌛' his reading. 
+
+![](storyboard.png)
 
 
 ## Part B. Act out the Interaction
@@ -96,6 +101,7 @@ We invented this tool for this lab!
 If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
 
 **Give us feedback on Tinkerbelle.**
+Cool! You could add some method of enabling interpolation between points so that wizarding can be automated to some degree, or so a wizard can more steadily control gradients rather than resorting to flipping quickly between extreme colors to make a point. Here's a quick prototype of this in JS: https://editor.p5js.org/bartle/sketches/AeD_5ZJC0. Happy to help if something like this seems useful.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
