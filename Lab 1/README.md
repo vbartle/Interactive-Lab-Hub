@@ -79,7 +79,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 
 Alex🧍 is a caregiver assisting a client, Aaron🧍, with a passive range-of-motion exercise at home🏠 during their weekly⏰ visits: standing knee flexion, where the client stands and bends one knee so the tibia rotates as far as possible, also leaving them standing on one leg. To maximize rotation and track progress, the client needs the caregiver to cue them. In order to avoid confusion from nodding or verbal cues, the caregiver will use Tinkerbelle to indicate progression 📕relative to their farthest🔥, or past rotation. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YubFqnGJ5Qk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://www.youtube.com/embed/YubFqnGJ5Qk
 
 I added this class late, my apologies, so I don't have breakout room feedback. But feedback received from my brother: consider the scenario of Aaron wanting to do this exercise by themselves -- can the device be programmed in some way to notice the farthest they've gone on it's own? 
 
