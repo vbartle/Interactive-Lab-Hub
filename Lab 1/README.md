@@ -76,7 +76,7 @@ Present your idea to the other people in your breakout room. You can just get fe
 **Summarize feedback you got here.**
 
 ----
-
+### Part A. Plan 
 Alex🧍 is a caregiver assisting a client, Aaron🧍, with a passive range-of-motion exercise at home🏠 during their weekly⏰ visits: standing knee flexion, where the client stands and bends one knee so the tibia rotates as far as possible, also leaving them standing on one leg. To maximize rotation and track progress, the client needs the caregiver to cue them. In order to avoid confusion from nodding or verbal cues, the caregiver will use Tinkerbelle to indicate progression 📕relative to their farthest🔥, or past rotation. 
 
 https://www.youtube.com/embed/YubFqnGJ5Qk
@@ -94,6 +94,9 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
+### Part B. Act out the Interaction
+
+I pretended to exercise knee mobility myself and found my first instinct wasn't to keep my moving knee parallel with my unmoving knee, so I had to consciously keep the moving knee in place. It could be good to setup a cue via color to indicate that knees aren't parallel with each other. Like having white to blue for knee mobility and then flashing if knees aren't parallel. 
 
 ## Part C. Prototype the device
 
@@ -113,7 +116,7 @@ Take a little time to set up the wizarding set-up that allows for someone to rem
 
 **Include your first attempts at recording the set-up video here.**
 
-Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
+Now, change the goal within the same setting, and update the interaction with the paper prototype. 
 
 **Show the follow-up work here.**
 
