@@ -83,7 +83,7 @@ https://www.youtube.com/embed/YubFqnGJ5Qk
 
 I added this class late, my apologies, so I don't have breakout room feedback. But feedback received from my brother: consider the scenario of Aaron wanting to do this exercise by themselves -- can the device be programmed in some way to notice the farthest they've gone on it's own? 
 
-![](storyboard.png)
+![](Screenshot from 2021-02-19 09-34-42.png)
 
 
 ## Part B. Act out the Interaction
