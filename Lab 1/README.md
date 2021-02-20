@@ -127,7 +127,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
-![](Screenshot from 2021-02-19 09-53-24.png)
+![](Screenshot%20from%202021-02-19%2009-53-24.png)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 The main one is positioning wherever the person wants to do this exercise so the light is nearby or can be easily placed where the person would like. So a tripod is included. The aesthetic element of the device has not come up in feedback yet, it seems that the simplicty of the device is prefered.
