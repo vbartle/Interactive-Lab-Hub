@@ -151,7 +151,7 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
-1. How could you position it to be more eye-level?
+1. How could you position it to be eye-level for any height person and be positioned anywhere easily by a solo adult?
 1. How could you indicate that the exercise is being done correctly? E.g. having knees parallel? 
 1. How would you set the goal point?
 1. How could you celebrate hitting a goal point?
