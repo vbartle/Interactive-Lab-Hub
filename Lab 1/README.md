@@ -151,6 +151,13 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+1. How could you position it to be more eye-level?
+1. How could you indicate that the exercise is being done correctly? E.g. having knees parallel? 
+1. How would you set the goal point?
+1. How could you celebrate hitting a goal point?
+1. How could you indicate that the session has started?
+1. How could you indicate reps and progress toward reps? 
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
@@ -159,3 +166,11 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here.**
+
+1. Added tripod.
+2. Added light flashing for knee's being parallel. 
+3. Added 3-2-1 start.
+4. Added reps.
+5. Added holding. 
+6. Added goal setting,
+7. Added celebratory lighting.
