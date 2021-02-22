@@ -167,6 +167,7 @@ Do last week’s assignment again, but this time:
 
 **Document everything here.**
 
+## Final video:
 1. Added tripod.
 2. Added light flashing for knee's being parallel. 
 3. Added 3-2-1 start.
@@ -174,8 +175,9 @@ Do last week’s assignment again, but this time:
 5. Added goal setting,
 6. Added celebratory lighting.
 
-## Final video:
 https://drive.google.com/file/d/1shW5M__bRLnxYkbMOPYelLtpWTXn8w_w/view?usp=sharing
 
 ## Reflection:
 Creating a language through the symbols that are light patterns turned into an interesting experiment with design. One example being how, before including the idea of sound, to communicate to the user that their knees weren't in-line it wasn't entirely clear what the best approach might be. There could be a red flashing light, but this miscommunicates urgency, I ultimately went with fading in and out of black which I felt communicated that the exercise was being done incorrectly in some way. The notion of adding in a goal and allowing the user to set a goal also seems elaborate, although for a simple exercise like knee flexion it seems like a gesture suffices. I imagine for more complex physical therapy or otherwise mobility exercises a gesture might not be ideal -- what if both hands are occupied, for instance. The use of vocalizing might be a necessary medium at that point.
+
+As for costuming, there is the consideration of designing devices for the elderly such that they are easily used. Attaching the device to a tripod allows for ease of movement and placement so that the user can see it easily. One additional feature to explore for a future iteration might be to clamp a bar or chair to the tripod so that the user can use the device as a hold, although at this point the device becomes furniture and there is the liability of it not being strong enough to hold the client. 
