@@ -4,7 +4,9 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
-
+from time import strftime, sleep
+import datetime
+from suntime import Sun, SunTimeException
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -61,12 +63,20 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
+lat = 43.7128
+lon = -75.006
+sun = Sun(lat,lon)
+today_sr = sun.get_local_sunrise_time()
+today_ss = sun.get_local_sunset_time()
+
 while True:
     # Draw a black filled box to clear the image.
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
+    draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,100))
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-
+    draw.multiline_text((10,10), strftime("%m/%d/%Y")+"\n"+strftime("%I:%M:%S"), font=font, fill=(255,255,255))
+    draw.text((10,60), "sunrise: "+today_sr.strftime('%I:%M'), font=font, fill=(255,255,255))
     # Display image.
+    draw.text((10,80), "sunset: "+today_ss.strftime('%I:%M'), font=font, fill=(255,255,255))
     disp.image(image, rotation)
     time.sleep(1)
