@@ -170,8 +170,12 @@ After that git will ask you to login to your github account to upload.
 
 **Take a video of your PiClock.**
 
+https://drive.google.com/file/d/1OxxkoBzNOUxzVK5MoC25QWlJwqEdWCIN/view?usp=sharing
+
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
+
+Todo: Add button clicks to flip between sunrise and sunset info.
 
 
 
