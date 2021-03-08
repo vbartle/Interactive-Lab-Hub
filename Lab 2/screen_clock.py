@@ -79,4 +79,5 @@ while True:
     # Display image.
     draw.text((10,80), "sunset: "+today_ss.strftime('%I:%M'), font=font, fill=(255,255,255))
     disp.image(image, rotation)
+    image.show()
     time.sleep(1)
