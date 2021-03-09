@@ -188,7 +188,7 @@ The final result takes most of this into account, except for adding more informa
 Final video here:
 https://drive.google.com/file/d/1DqFRE6Ixp48aHpFxk33oakS56_45TEZw/view?usp=sharing
 
-And because I couldn't get the shutter on the projector to match what my camera could capture, there's a rolling shutter artifact. Below is a screenshot of a more accurate representation of the display. 
+And because I couldn't get the shutter on the projector to match what my camera could capture, there's a rolling shutter artifact. Below is a screenshot of a more accurate representation of the display. Also it's hard to see in the video but the first screen says "how are the skies today?" followed by "overcast" and "clear" when the user said overcast or clear. 
 
 ![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%202/2021-03-08-193055_1280x720_scrot.png)
 
