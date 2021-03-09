@@ -178,4 +178,16 @@ https://drive.google.com/file/d/1OxxkoBzNOUxzVK5MoC25QWlJwqEdWCIN/view?usp=shari
 Todo: Add button clicks to flip between sunrise and sunset info.
 
 
+Final version I forgot to rename but is all in https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%202/p5_audio_version/test.py .
 
+Feedback received:
+The feedback I received from Min Tae Lee, Erin Gong, Jacob Rauch, and Ritika Poddar was complimentary of the sunrise and set API usage, and im summary asked to include adding button presses to display more data like time to next sunset/sunrise, and enabling color or background image differences/animations overtime based on sunrise/sunset are ideal best next steps. I also shared thoughts of using a projector to display this over the day in a room.
+
+The final result takes most of this into account, except for adding more information, instead I wanted to make it as clear as possible where the sun was so there is the inclusion of the altitude of the sun, although the data point is not as explicitly visible as the simulation of the sun made. The implementation consists of taking a python version of p5.js, a graphics library, importing solar data from a solar location API and a sun times library. Rather than squeezing this into the OLED display I did end up playing with a projector. The background of the simulation changes based on microphone input, so if the user says it's an overcast day, the background changes to something that will make the image more favorable given the lighting conditions, and vice versa for a clear day. Part of this was also to make up for the difficulty in predicting weather and to include the user in informing the device as to the weather conditions rather than trying to do too much. I found this involvement to be enjoyable, the only possibly missing step is allowing the user to fine tune the background colors, perhaps with an additional controller like the rotoary encoder. This was already very feature packed by the time I considered this though.
+
+Final video here:
+https://drive.google.com/file/d/1DqFRE6Ixp48aHpFxk33oakS56_45TEZw/view?usp=sharing
+
+And because I couldn't get the shutter on the projector to match what my camera could capture, there's a rolling shutter artifact. Below is a screenshot of a more accurate representation of the display. 
+
+![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%202/2021-03-08-193055_1280x720_scrot.png)
