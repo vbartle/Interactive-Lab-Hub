@@ -30,10 +30,11 @@ buttonB.switch_to_input()
 r = requests.get('https://api.sunrise-sunset.org/json', params={'lat': lat, 'lng': lon}).json()['results']
 
 walls = []
+triggered = []
 width = 1200
 height = 650
 fontSize = 30
-#bg = 'black'
+bg = 'black'
 import speech_recognition as sr
 recognizer = sr.Recognizer()
 
@@ -63,45 +64,31 @@ def setup():
     walls.append(Boundary(0, width, 0, 0))
 
     particle = Particle()
-    text("how are the skies?", 20,20)
+    
 def draw():
-    # now = Time.now()
-   
-    # sun = coord.get_sun(now)
-    # altitude = sun.transform_to(altaz).alt.degree*-1
-    # background('black')
-    # try:
-    #     print(voice_data)
-    # except:
-    #     text("how are the skies?", width/2, height/2)
-    triggered=0
-    #print(buttonA.value)
-    if not (buttonB.value and buttonA.valuei):
-        triggered += 1
+    global bg
+    global triggered
+    global voice_data
+    
+    if not (buttonB.value and buttonA.value):
+        triggered.append(1)
         with sr.Microphone() as source:
             print("how are the skies today?")
-            #text("How are the skies today?", 20,20)
             audio = recognizer.listen(source)
             voice_data = recognizer.recognize_google(audio)
             print(voice_data)
 
         if voice_data == "overcast":
             bg = 'gray'
-            #for wall in walls:
-            #    wall.show()
-            #particle.look(walls)
         elif voice_data == "clear":
             bg = 'blue'
-            #for wall in walls[0]:
-            #    wall.show()
-            #particle.look(walls[0])
         else:
             bg = 'black'
-    elif triggered == 0:
+    elif len(triggered) == 0:
         bg = 'black'
+        voice_data = "how are the skies today?"
     
     background(bg)
-    print(updated)
     date = datetime.datetime.now(datetime.timezone.utc)
     altitude = get_altitude(lat, lon, date)
 
