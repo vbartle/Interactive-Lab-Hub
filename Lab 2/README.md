@@ -197,5 +197,6 @@ The solar simulation comes from a ray casting tutorial produced by Daniel Shiffm
 The audio at the end is Nights by Frank Ocean, to show the display going into night, and the sun simulation is condensed from a 2.5h recording to <5 seconds.
 
 (same video link, just added preview, this was done after the deadline just for my references, can see commit history)
+
 **Full screen + 1080p might make it easier to see the projection**
 [![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%202/Screenshot%20from%202021-03-09%2008-28-11.png)](https://drive.google.com/file/d/1DqFRE6Ixp48aHpFxk33oakS56_45TEZw/view?usp=sharing)
