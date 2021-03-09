@@ -191,3 +191,7 @@ https://drive.google.com/file/d/1DqFRE6Ixp48aHpFxk33oakS56_45TEZw/view?usp=shari
 And because I couldn't get the shutter on the projector to match what my camera could capture, there's a rolling shutter artifact. Below is a screenshot of a more accurate representation of the display. 
 
 ![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%202/2021-03-08-193055_1280x720_scrot.png)
+
+The solar simulation comes from a ray casting tutorial produced by Daniel Shiffman from NYU (https://twitter.com/shiffman/status/1126134538353152000?lang=en); it's pretty remarkable how far the RPI4 could be pushed given the complexity of this script to calculate particle positions. One slow down to make it more runnable is that the display only refreshes every 3 seconds instead of every second or half second as it would or a typical rig. I made some changes to the code to make the obstacles a certain length and orientation that represented buildings outside of my apartment, the way the sun might actually shine through the real life objects. As mentioned above the functional final code is in test.py in the p5_audio_version; I did not update the requirements file but one would need to also pip install: p5, pysolar, pyaudio, and sudo apt-get install {libglfw3, freeglut3-dev} -- some graphics libraries. 
+
+The audio at the end if Nights by Frank Ocean, to show the display going into night, and the sun simulation is condensed from a 2.5h recording to <5 seconds.
