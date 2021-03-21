@@ -30,6 +30,7 @@ lon = -75.006
 r = requests.get('https://api.sunrise-sunset.org/json', params={'lat': lat, 'lng': lon}).json()['results']
 
 walls = []
+triggered = []
 width = 1200
 height = 650
 fontSize = 30
@@ -63,16 +64,13 @@ def setup():
     walls.append(Boundary(0, width, 0, 0))
 
     particle = Particle()
-    text("how are the skies?", 20,20)
-
-triggered = []
+    
 def draw():
-
     global bg
     global triggered
     global voice_data
-    if mouse_is_pressed:
-        print("mouse pressed")
+    
+    if not (buttonB.value and buttonA.value):
         triggered.append(1)
         with sr.Microphone() as source:
             print("how are the skies today?")
@@ -91,8 +89,6 @@ def draw():
         voice_data = "how are the skies today?"
     
     background(bg)
-
-    # print(updated)
     date = datetime.datetime.now(datetime.timezone.utc)
     altitude = get_altitude(lat, lon, date)
 
