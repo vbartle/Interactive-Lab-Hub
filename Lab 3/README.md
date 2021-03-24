@@ -127,3 +127,5 @@ The most difficult wizarding aspects were in handling edge cases where internet 
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
 Could create a dataset of emotional reactions to a set of robotic movements, and try to extract principal components of an emotion inducing robotic movement based on a set of reactions that a user has. I think it would be interesting not to add more sensing modalities but to try to further exploit the camera feed to get data from eye movement, to try to get a sort of more intelligent version of eye tracking. It would be great to get a better microphone and get some sense of directionality in the audio signal. The single mic array doesn't facilitate this but directionality in audio signal could well be used to make the robot more autonomous. 
+
+*Due credit to Brad Traversy for the SST and TTS tutorial, and Eben Kouao for the Flask Pi Camera sever.*
