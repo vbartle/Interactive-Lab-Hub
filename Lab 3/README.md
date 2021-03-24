@@ -100,7 +100,13 @@ To get the full system running, besides installing the requirements.txt and the 
 The point of this setup was to see how an Alexa might be augmented through movement, and how a user might react to this movement. The enhancements to this Alexa are mainly in what is afforded in access to YouTube videos, the ability to watch a moving picture, and then have company in the form of a robot that might also be experiencing the same visual experience the user is experiencing. All of this to explore how a user develops an affinity to the device. 
 
 *Include videos or screencaptures of both the system and the controller.*
+
+**This is arrow key input for servo control.**
+
 ![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%203/robot_control.png)
+
+**This is a pi stream via Flask of my beautiful wife.**
+
 ![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%203/Kat.png)
 
 
