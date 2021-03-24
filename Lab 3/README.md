@@ -109,6 +109,7 @@ Try to get at least two people to interact with your system. (Ideally, you would
 
 ## Final video prototype:
 [![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%203/preview.png)](https://drive.google.com/file/d/1sAyDeGDEG1PoWVENRhgvGNVL8zU8Xbw3/view?usp=sharing)
+
 (click^!)
 
 Answer the following:
