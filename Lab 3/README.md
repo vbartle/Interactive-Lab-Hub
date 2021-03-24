@@ -67,7 +67,7 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 ## Prep for Part 2
 
 1. Sketch ideas for what you'll work on in lab on Wednesday.
-![]('initial_storyboard.png')
+![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%203/initial_storyboard.png)
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
@@ -83,7 +83,7 @@ I had a medical appointment Wednesday morning and didn't make it to this sketch 
 *The feedback was primarily around how to make this a fun interaction for the user while enhancing Alexa. Some things I couldn't really get to but it was obvious that the robot didn't have to really be too complicated to get some interesting observations from a user. So I focused on a simple robot and YouTube video requesting.*
 
 Iterated storyboard based on the feedback:
-![]('end_storyboard.png')
+![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%203/end_storyboard.png)
 
 ## Prototype your system
 
@@ -100,15 +100,16 @@ To get the full system running, besides installing the requirements.txt and the 
 The point of this setup was to see how an Alexa might be augmented through movement, and how a user might react to this movement. The enhancements to this Alexa are mainly in what is afforded in access to YouTube videos, the ability to watch a moving picture, and then have company in the form of a robot that might also be experiencing the same visual experience the user is experiencing. All of this to explore how a user develops an affinity to the device. 
 
 *Include videos or screencaptures of both the system and the controller.*
-![]('robot_control.png')
-![]('Kat.png')
+![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%203/robot_control.png)
+![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%203/Kat.png)
 
 
 ## Test the system
 Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
 
 ## Final video prototype:
-[![]('preview.png')](https://drive.google.com/file/d/1sAyDeGDEG1PoWVENRhgvGNVL8zU8Xbw3/view?usp=sharing)
+[![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%203/preview.png)](https://drive.google.com/file/d/1sAyDeGDEG1PoWVENRhgvGNVL8zU8Xbw3/view?usp=sharing)
+(click^!)
 
 Answer the following:
 
