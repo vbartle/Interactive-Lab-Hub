@@ -1,0 +1,10 @@
+import speech_recognition as sr
+r = sr.Recognizer()
+ 
+with sr.Microphone() as source:
+	print("say something")
+	audio = r.listen(source)
+	voice_data = r.recognize_google(audio)
+	print(voice_data)
+
+#This has slowed down a lot, suspecting throttling from Google. Going to try dspeech.
