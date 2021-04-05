@@ -158,6 +158,10 @@ Reiterating:
 5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
 ---
+**Sketch progression:**
+![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%204/sketches.JPG)
+
+
 Problems: Brittle wood for a small picture frame broke. Screen overheated. Chromium blacklists WebGL. RPi OS didn't have emojis. Model loads very slowly. Mic noise impacts model performance. Case broke overnight. 
 
 **Final video:**
