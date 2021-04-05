@@ -47,6 +47,8 @@ The last important note was having the microphone work accurately -- the mic tha
 **Final video:**
 [![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%204/pre.png)](https://drive.google.com/file/d/1MGOn1q9r1fo0QlbezuGJtMP_xpUEFjhd/view?usp=sharing)
 
+In case it's not clear: the three classes are: nothing, normal knock, speak-easy knock. 
+
 **Would have liked to:**
 1. Merged with progress in Lab 3 where navigating YouTube over voice was feasible. 
 2. Included hand pose detection for navigation. E.g. pinch = volume down, thumb & index apart = volume up.
