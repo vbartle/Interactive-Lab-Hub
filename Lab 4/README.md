@@ -38,13 +38,15 @@ The next iteration I considered taking the (remaining, working) digital servo fr
 
 The final iteration I considered keeping the frame still, and the vertical orientation, and addressing the wake word problem with Alexa, where maybe a person doesn't want to or cannot speak. So maybe the display could instead be embedded into a door. Where one knocks on a door as a sort of real-life wake word. I thought this idea would be fantastic so I moved on to making the actual door and case. 
 
-The case is made from strips of walnut wood cut on a bandsaw and trimmed on a router. The strips were then glued together 
+The case is made from strips of walnut wood cut on a bandsaw that were then glued together with the magical glue gun mailed to us, and then trimmed on a router. So the main problem with all of this was 1) I have no idea how woodworking works, and 2) I don't have much experience working with small pieces of wood. Two project specific problems that arose were: 1) the case/framing broke several times, as shown in the video and 2) the monitor overheated in the case design I made, also shown in the video. 
 
-Problems: Brittle wood for a small picture frame broke. Screen overheated. Chromium blacklists WebGL. RPi OS didn't have emojis. Model loads very slowly. Mic noise impacts model performance. Case broke overnight. 
+From a technical standpoint this is less complex than my last labs, everything runs on the web editor of p5.js: editor.p5js.org, a real miracle out of NYU, with the support of TheCodingTrain by Daniel Shiffman, and Google/NYU's TeachableMachine. There is a nontrivial aspect of actually getting this to run on Chromium on the pi, and it definitely is at the edge of the Pi's ability. One minor problem: supporting emoji's which was resolved with this post: https://raspberrypi.stackexchange.com/questions/104181/colored-emojis-in-chromium. And to get WebGL to work I ran chromium --enable-webgl --ignore-gpu-blacklist. 
+
+The last important note was having the microphone work accurately -- the mic that came with the kit has a lot of noise, and I found more success with my usual mic which also just connected over USB. It is interesting that the model results did not transfer between mics: if I made the model on one mic, it would not perform as well if run on the other mic. 
 
 **Final video:**
 [![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%204/pre.png)](https://drive.google.com/file/d/1MGOn1q9r1fo0QlbezuGJtMP_xpUEFjhd/view?usp=sharing)
 
-Would have liked to:
-Merged with progress in Lab 3 where navigating YouTube over voice was feasible. 
-Included hand pose detection for navigation. E.g. pinch = volume down, thumb & index apart = volume up.
+**Would have liked to:**
+1. Merged with progress in Lab 3 where navigating YouTube over voice was feasible. 
+2. Included hand pose detection for navigation. E.g. pinch = volume down, thumb & index apart = volume up.
