@@ -157,4 +157,11 @@ Reiterating:
 4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
 5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
 
+---
+Problems: Brittle wood for a small picture frame broke. Screen overheated. Chromium blacklists WebGL. RPi OS didn't have emojis. Model loads very slowly. Mic noise impacts model performance. Case broke overnight. 
 
+**Final video:**
+[![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%204/pre.png)](https://drive.google.com/file/d/1MGOn1q9r1fo0QlbezuGJtMP_xpUEFjhd/view?usp=sharing)
+
+Would have liked to:
+Merged with progress in Lab 3 where navigating YouTube over voice was feasible. 
