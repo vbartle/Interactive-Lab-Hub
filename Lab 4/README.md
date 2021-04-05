@@ -50,3 +50,6 @@ The last important note was having the microphone work accurately -- the mic tha
 **Would have liked to:**
 1. Merged with progress in Lab 3 where navigating YouTube over voice was feasible. 
 2. Included hand pose detection for navigation. E.g. pinch = volume down, thumb & index apart = volume up.
+3. Made TeachableMachine model run on python as a keras model. This is a lot more complicated but would run without Chrome. 
+4. Run this on Jetson Nano (**is this allowed?**) for smoother performance.
+5. Made a cleaner case. 
