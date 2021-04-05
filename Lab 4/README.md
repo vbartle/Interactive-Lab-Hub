@@ -45,9 +45,12 @@ From a technical standpoint this is less complex than my last labs, everything r
 The last important note was having the microphone work accurately -- the mic that came with the kit has a lot of noise, and I found more success with my usual mic which also just connected over USB. It is interesting that the model results did not transfer between mics: if I made the model on one mic, it would not perform as well if run on the other mic. 
 
 **Final video:**
+
+Prologue: 1. the frame breaks in the router scene, 2. the LCD panel shuts off when it touches the chip because of overheating, 3. There are three distinct events being picked up by the microphone, the louder knock is the speakeasy password that gives the beer emoji.
+
 [![](https://github.com/vbartle/Interactive-Lab-Hub/blob/Spring2021/Lab%204/pre.png)](https://drive.google.com/file/d/1MGOn1q9r1fo0QlbezuGJtMP_xpUEFjhd/view?usp=sharing)
 
-In case it's not clear: the three classes are: nothing, normal knock, speak-easy knock. 
+
 
 **Would have liked to:**
 1. Merged with progress in Lab 3 where navigating YouTube over voice was feasible. 
