@@ -58,3 +58,15 @@ Prologue: 1. the frame breaks in the router scene, 2. the LCD panel shuts off wh
 3. Made TeachableMachine model run on python as a keras model. This is a lot more complicated but would run without Chrome. 
 4. Run this on Jetson Nano (**is this allowed?**) for smoother performance.
 5. Made a cleaner case. 
+-------
+
+POST SCRIPT ON USING TEACHABLE MACHINE:
+
+1. Navigate to ./react_flask
+2. python -m venv venv; source venv/bin/activate
+3. export FLASK_APP=flask_routing; export FLASK_DEBUG=1; flask run
+4. If you run into flask_cors not found, the following might work: run pip cache purge, then reinstall requirements, then flask run 
+5. cd frontend
+6. npm i react-scripts
+7. BROWSER=google-chrome npm start
+8. When pushing to your repo, to avoid uploading all (>1k+) node modules, you can add react_flask/frontend/node_modules to .gitignore. (echo 'react_flask/frontend/node_modules' > .gitignore).
