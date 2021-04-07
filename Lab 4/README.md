@@ -70,3 +70,5 @@ POST SCRIPT ON USING TEACHABLE MACHINE:
 6. npm i react-scripts
 7. BROWSER=google-chrome npm start
 8. When pushing to your repo, to avoid uploading all (>1k+) node modules, you can add react_flask/frontend/node_modules to .gitignore. (echo 'react_flask/frontend/node_modules' > .gitignore).
+
+Also, to run this without internet, instead of adding the teachable machine URL in App.js [line 9](https://github.com/vbartle/Interactive-Lab-Hub/blob/9e099964ca6e2274ed8349859f8ed7dd4cd7b2fd/Lab%204/react_flask/frontend/src/App.js#L9) -- you can instead download the json model from teachable machine and refer to the downloaded file.
