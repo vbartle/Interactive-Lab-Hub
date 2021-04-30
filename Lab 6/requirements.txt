@@ -1,9 +1,7 @@
-Adafruit-Blinka==6.4.2
-adafruit-circuitpython-apds9960==2.2.6
+Adafruit-Blinka==6.6.0
 adafruit-circuitpython-busdevice==5.0.6
-adafruit-circuitpython-register==1.9.5
 adafruit-circuitpython-rgb-display==3.10.6
-Adafruit-PlatformDetect==3.5.0
+Adafruit-PlatformDetect==3.8.0
 Adafruit-PureIO==1.1.8
 paho-mqtt==1.5.1
 Pillow==8.2.0
