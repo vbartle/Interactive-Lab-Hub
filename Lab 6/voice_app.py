@@ -61,6 +61,7 @@ x = 0
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+topic = "IDD/voice_app"
 curr_message = 'No messages yet.'
 
 def on_connect(client, userdata, flags, rc):
@@ -77,22 +78,22 @@ client.connect(
     'farlab.infosci.cornell.edu',
     port=8883
 )
-client.loop_forever()
+#client.loop_forever()
 
 while True:
     draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,100))
-
+    client.loop()
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
     draw.multiline_text((10,10), "hello"+"\n"+"test", fill=(255,255,255))
     disp.image(image, rotation)
     image.show()
     time.sleep(1)
-    topic = "IDD/voice"
 
     if not buttonA.value:
         val = "button"
         client.publish(topic,val)
     if not buttonB.value:
+        #client.on_message = on_message
         print(curr_message)
 
 # end
