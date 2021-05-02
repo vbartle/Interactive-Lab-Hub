@@ -70,9 +70,18 @@ while True:
     disp.image(image, rotation)
     image.show()
     time.sleep(1)
+    topic = "IDD/voice"
+    def on_connect(client, userdata, flags, rc):
+        client.subscribe(topic)
+    def on_message(client, userdata, msg):
+        print(msg.payload.decode('UTF-8'))
+    client = mqtt.Client(str(uuid.uuid1()))
+    client.tls_set()
+    client.username_pw_set
     if not buttonA.value:
-        topic = "IDD/voice_test"
         val = "button"
         client.publish(topic,val)
+    if not buttonB.value:
+        
 
 # end
