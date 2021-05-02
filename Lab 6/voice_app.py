@@ -61,6 +61,23 @@ x = 0
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
+curr_message = 'No messages yet.'
+
+def on_connect(client, userdata, flags, rc):
+    client.subscribe(topic)
+def on_message(client, userdata, msg):
+    curr_message = msg.payload.decode('UTF-8')
+
+client = mqtt.Client(str(uuid.uuid1()))
+client.tls_set()
+client.username_pw_set('idd', 'device@theFarm')
+client.on_connect = on_connect
+client.on_message = on_message
+client.connect(
+    'farlab.infosci.cornell.edu',
+    port=8883
+)
+client.loop_forever()
 
 while True:
     draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,100))
@@ -71,17 +88,11 @@ while True:
     image.show()
     time.sleep(1)
     topic = "IDD/voice"
-    def on_connect(client, userdata, flags, rc):
-        client.subscribe(topic)
-    def on_message(client, userdata, msg):
-        print(msg.payload.decode('UTF-8'))
-    client = mqtt.Client(str(uuid.uuid1()))
-    client.tls_set()
-    client.username_pw_set
+
     if not buttonA.value:
         val = "button"
         client.publish(topic,val)
     if not buttonB.value:
-        
+        print(curr_message)
 
 # end
