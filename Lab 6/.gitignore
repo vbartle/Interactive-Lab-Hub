@@ -1,0 +1,4 @@
+venv/
+Raspberry-Pi-Installer-Scripts/
+deepspeech-0.9.3-models.scorer
+deepspeech-0.9.3-models.tflite

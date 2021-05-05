@@ -6,6 +6,16 @@ import paho.mqtt.client as mqtt
 import uuid
 from PIL import Image, ImageDraw, ImageFont
 import time
+import speech_recognition as sr
+import pyttsx3
+recognizer = sr.Recognizer()
+
+def speak(text):
+    engine = pyttsx3.init()
+    engine.say(text)
+    print(str(text))
+    engine.runAndWait()
+
 client = mqtt.Client(str(uuid.uuid1()))
 client.tls_set()
 client.username_pw_set('idd','device@theFarm')
@@ -67,18 +77,13 @@ curr_message = 'No messages yet.'
 def on_connect(client, userdata, flags, rc):
     client.subscribe(topic)
 def on_message(client, userdata, msg):
+    global curr_message
     curr_message = msg.payload.decode('UTF-8')
+    print(curr_message)
 
-client = mqtt.Client(str(uuid.uuid1()))
-client.tls_set()
-client.username_pw_set('idd', 'device@theFarm')
 client.on_connect = on_connect
 client.on_message = on_message
-client.connect(
-    'farlab.infosci.cornell.edu',
-    port=8883
-)
-#client.loop_forever()
+
 
 while True:
     draw.rectangle((0, 0, width, height), outline='black', fill=(0,0,0,100))
@@ -87,11 +92,14 @@ while True:
     draw.multiline_text((10,10), "hello"+"\n"+"test", fill=(255,255,255))
     disp.image(image, rotation)
     image.show()
-    time.sleep(1)
+    time.sleep(.25)
 
     if not buttonA.value:
         val = "button"
-        client.publish(topic,val)
+        with sr.Microphone() as source:
+            audio = recognizer.listen(source)
+            voice_data = recognizer.recognize_google(audio)
+        client.publish(topic,voice_data)
     if not buttonB.value:
         #client.on_message = on_message
         print(curr_message)
