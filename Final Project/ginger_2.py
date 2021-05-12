@@ -6,7 +6,6 @@ from time import ctime # get time details
 import random
 from time import ctime # get time details
 import webbrowser # open browser
-import yfinance as yf # to fetch financial data
 import ssl
 import certifi
 import time
@@ -35,6 +34,9 @@ leg_swell_chart = load_image('./edema_chart.jpeg')
 r = sr.Recognizer() # initialise a recogniser
 
 def word_wrap(text, n=35):
+    '''
+    This is included to address word wrapping of long phrases.
+    '''
     words = iter(text.split())
     lines, current = [], next(words)
     for word in words:
@@ -52,6 +54,9 @@ class person:
         self.name = name
 
 def there_exists(terms, voice_data):
+    '''
+    Core voice streram checking function.
+    '''
     for term in terms:
         if term in voice_data:
             return True
@@ -116,6 +121,11 @@ def respond(voice_data):
     global monday_morning_tasks
     global monday_evening_tasks
     
+    '''
+    Between here and line 210 are 'if there_exists' statements. 
+    They check for actions in the voice_data stream for the most part, and the change
+    the apps 'status'. Or speak without changing status.
+    '''
     if there_exists(['add to the morning'], voice_data):
         added_task = voice_data.split("morning")[-1]
         monday_morning_tasks.append(added_task)
@@ -130,11 +140,6 @@ def respond(voice_data):
             monday_morning_tasks.remove(removed_task)
         except:
             pass
-    
-    #if there_exists(['hey','hi','hello'], voice_data):
-    #    greetings = [f"hey, how can I help you {person_obj.name}", f"hey, what's up? {person_obj.name}", f"I'm listening {person_obj.name}", f"how can I help you? {person_obj.name}", f"hello {person_obj.name}"]
-    #    greet = greetings[random.randint(0,len(greetings)-1)]
-    #    speak(greet)
     
     if there_exists(["youtube"], voice_data):
         os.system("pkill chromium")
@@ -211,7 +216,12 @@ def respond(voice_data):
         status = 'no'
         spoken = False
         print('status:no set')
+    #### Here #### 
     
+    '''
+    The following blocks of code read the status of the app as 
+    the voice stream comes in, then update the DOM. 
+    '''
     if status == 'yes':
         background(253,246,227)
         phrase1 = "Ok, reminder set for tomorrow to measure leg swelling."
