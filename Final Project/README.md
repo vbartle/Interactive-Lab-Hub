@@ -34,7 +34,6 @@ To get this running make a virtual environment and recursive install the from th
 [![](https://raw.githubusercontent.com/vbartle/Interactive-Lab-Hub/Spring2021/Final%20Project/final_preview.png)](https://drive.google.com/file/d/19nhoX-Td7e8_7Ot75MmUqb2jkSIoIUW3/view?usp=sharing)
 
 4. Reflections on process (What have you learned or wish you knew at the start?)
-5. 
 I initially intended to include some of the machine learning components from past labs, but found that as it was the system had all the features it needed to convey the story to the device. Moreover, the machine learning components would have slowed down and heat up the system significantly, and necessitated a switch to the Jetson Nano, which I decided to hold off on for another day. I think there are still some great applications of ML to be included, such as hand pose detection for navigating the care plan list, and the various other medical CV applications. 
 
 Overall I was surprised with how effectively if-elif-else statements worked for simple app navigation. I was afraid I might have had to incorporate some sort of state-handling system with flask, but it just barely worked smoothly enough to not need this.  
